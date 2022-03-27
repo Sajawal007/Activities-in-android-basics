@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BOOK APP</string>
+    <string name="book_title">MY FIRST BOOK OF \n<b>Android Tutorials</b></string>
+    <string name="personal_details">Author: Sajawal Ali \nRoll-No: 19L-2346</string>
+</resources>
