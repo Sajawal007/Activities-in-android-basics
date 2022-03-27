@@ -10,6 +10,86 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BookApp">
         <activity
+            android:name=".Z"
+            android:exported="false" />
+        <activity
+            android:name=".Y"
+            android:exported="false" />
+        <activity
+            android:name=".X"
+            android:exported="false" />
+        <activity
+            android:name=".W"
+            android:exported="false" />
+        <activity
+            android:name=".V"
+            android:exported="false" />
+        <activity
+            android:name=".U"
+            android:exported="false" />
+        <activity
+            android:name=".T"
+            android:exported="false" />
+        <activity
+            android:name=".S"
+            android:exported="false" />
+        <activity
+            android:name=".r_activity"
+            android:exported="false" />
+        <activity
+            android:name=".R"
+            android:exported="false" />
+        <activity
+            android:name=".Q"
+            android:exported="false" />
+        <activity
+            android:name=".P"
+            android:exported="false" />
+        <activity
+            android:name=".O"
+            android:exported="false" />
+        <activity
+            android:name=".N"
+            android:exported="false" />
+        <activity
+            android:name=".M"
+            android:exported="false" />
+        <activity
+            android:name=".L"
+            android:exported="false" />
+        <activity
+            android:name=".K"
+            android:exported="false" />
+        <activity
+            android:name=".J"
+            android:exported="false" />
+        <activity
+            android:name=".I"
+            android:exported="false" />
+        <activity
+            android:name=".H"
+            android:exported="false" />
+        <activity
+            android:name=".G"
+            android:exported="false" />
+        <activity
+            android:name=".F"
+            android:exported="false" />
+        <activity
+            android:name=".E"
+            android:exported="false" />
+        <activity
+            android:name=".D"
+            android:exported="false"
+            android:label="@string/title_activity_d"
+            android:theme="@style/Theme.BookApp.NoActionBar" />
+        <activity
+            android:name=".C"
+            android:exported="false" />
+        <activity
+            android:name=".B"
+            android:exported="false" />
+        <activity
             android:name=".book_page"
             android:exported="false" />
         <activity

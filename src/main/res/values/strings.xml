@@ -2,4 +2,13 @@
     <string name="app_name">BOOK APP</string>
     <string name="book_title">MY FIRST BOOK OF \n<b>Android Tutorials</b></string>
     <string name="personal_details">Author: Sajawal Ali \nRoll-No: 19L-2346</string>
+    <string name="title_activity_d">D</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 </resources>
