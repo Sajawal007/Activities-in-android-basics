@@ -1,5 +1,6 @@
 package com.example.bookapp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -23,10 +24,14 @@ class Z : AppCompatActivity() {
         phrase = findViewById(R.id.phrase)
         imgView = findViewById(R.id.img_)
         imgView.setImageResource(R.drawable.pg)
+        next_btn.setText("Finish!")
         txtView.setText("Z")
         phrase.setText("Z for Zoooohh!")
         next_btn.setOnClickListener {
-            Toast.makeText(this, "No more pages!!", Toast.LENGTH_SHORT).show()
+            val i = Intent(this, MainActivity::class.java)
+            // set the new task and clear flags
+            i.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+            startActivity(i)
         }
         back_btn.setOnClickListener {
             finish()
